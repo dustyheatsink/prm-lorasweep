@@ -52,7 +52,7 @@ radio = SX1262Radio(
 Create a directory for LoRaSweep, clone the repository, and enter the project directory:
 
 ```bash
-git clone <YOUR-GITHUB-REPO-URL>
+git clone https://github.com/dustyheatsink/prm-lorasweep
 cd prm-lorasweep
 ```
 
