@@ -137,7 +137,7 @@ The CSV file provides the radio configurations to test sequentially.
 Example:
 
 ```csv
-freq,bw,sf,cr
+frequency,bw,sf,cr
 918.500,500,10,5
 919.000,500,10,5
 919.500,500,10,5
