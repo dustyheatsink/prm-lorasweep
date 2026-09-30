@@ -103,9 +103,9 @@ For a single manually configured test:
 ```text
 Role [host/client]: host
 Mode [manual/csv]: manual
-Frequencies MHz [902.250]: 919.500
+Frequencies MHz [919.500]: 919.500
 Bandwidth kHz [500]: 500
-Spreading factor [11]: 10
+Spreading factor [10]: 10
 Coding rate [5]: 5
 ```
 
