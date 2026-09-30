@@ -27,14 +27,14 @@ case "$ROLE" in
 
         case "$MODE" in
             manual)
-                read -rp "Frequencies MHz [902.250]: " FREQ
+                read -rp "Frequencies MHz [919.500]: " FREQ
                 read -rp "Bandwidth kHz [500]: " BW
-                read -rp "Spreading factor [11]: " SF
+                read -rp "Spreading factor [10]: " SF
                 read -rp "Coding rate [5]: " CR
 
-                FREQ=${FREQ:-902.250}
+                FREQ=${FREQ:-919.500}
                 BW=${BW:-500}
-                SF=${SF:-11}
+                SF=${SF:-10}
                 CR=${CR:-5}
 
                 ARGS=(host --freq "$FREQ" --bw "$BW" --sf "$SF" --cr "$CR")
