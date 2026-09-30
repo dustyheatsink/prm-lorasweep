@@ -60,7 +60,6 @@ Create your local `.env` from the included example:
 
 ```bash
 cp .env.example .env
-nano .env
 ```
 
 Review and adjust the values for your system:
