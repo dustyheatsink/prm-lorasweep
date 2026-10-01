@@ -5,14 +5,14 @@ This work wouldn't be possible without the concepts introduced by [Cisien's mesh
 Their work inspired our own version built on our hardware and needs, but the multi-sized raw packet concept started with them.
 Thank you for sharing your efforts Cisien!
 
-Yes there are vibes in here, any use of AI was guided and reviewed by a human. 
-The end goal being a basic script that does what it says on the box, doesn't have lots of external dependencies, and as human readable as possible, please don't @ me.
+*Yes, there are some vibes mixed in here, ANY use of AI was heavily guided and reviewed by a human. No unsupervised clankers. Please don't @ me.*
+The end goal being a basic script that does what it says on the box, doesn't have lots of external dependencies, and as human readable as possible
 
 This is a testing tool for Measuring Packet Delivery Rate (PDR), RSSI, SNR, & Listen Before Talk (LBT).
 It allowed us to test multiple frequencies and configurations, and record the results in a CSV file on each end of the link for review.
 It was designed for our specific mesh and equipment, no promises are expressed or implied as far as running it on your own unique setup, think of this project as a guide.
 
-This was not the only method we used for frequency selection. We also manually validated the frequencies with member SDRs, and did test runs with actual repeaters and clients to ensure they performed as good in reality as they did on paper.
+**This was not the only method we used for frequency selection. We also manually validated the frequencies with member SDRs, and did test runs with actual repeaters and clients to ensure they performed as good in reality as they did on paper. If your mesh is testing for frequencies, please use multiple methods to validate your choices and the data you have.**
 
 # Requirements:
 This was designed to run on Philly Radio & Mesh (PRM) infrastructure hardware which is Raspberry Pi based and utilizes a SPI-based HAT for the LoRa radio.
