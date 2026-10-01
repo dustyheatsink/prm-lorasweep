@@ -12,6 +12,8 @@ This is a testing tool for Measuring Packet Delivery Rate (PDR), RSSI, SNR, & Li
 It allowed us to test multiple frequencies and configurations, and record the results in a CSV file on each end of the link for review.
 It was designed for our specific mesh and equipment, no promises are expressed or implied as far as running it on your own unique setup, think of this project as a guide.
 
+This was not the only method we used for frequency selection. We also manually validated the frequencies with member SDRs, and did test runs with actual repeaters and clients to ensure they performed as good in reality as they did on paper.
+
 # Requirements:
 This was designed to run on Philly Radio & Mesh (PRM) infrastructure hardware which is Raspberry Pi based and utilizes a SPI-based HAT for the LoRa radio.
 It is also designed to work with two devices on the same network, publicly reachable IPs, tailnet, etc. as the server and client side of the script use that connection to coordinate.
