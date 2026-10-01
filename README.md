@@ -6,7 +6,8 @@ Their work inspired our own version built on our hardware and needs, but the mul
 Thank you for sharing your efforts Cisien!
 
 *Yes, there are some vibes mixed in here, ANY use of AI was heavily guided and reviewed by a human. No unsupervised clankers. Please don't @ me.*
-The end goal being a basic script that does what it says on the box, doesn't have lots of external dependencies, and as human readable as possible
+
+Our end goal being a basic script that does what it says on the box, doesn't have lots of external dependencies, and as human readable as possible
 
 This is a testing tool for Measuring Packet Delivery Rate (PDR), RSSI, SNR, & Listen Before Talk (LBT).
 It allowed us to test multiple frequencies and configurations, and record the results in a CSV file on each end of the link for review.
